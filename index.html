@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Joel Roy — CS undergrad at UWindsor. Cybersecurity, networking, web dev, and more." />
+  <title>Joel Roy — Developer & Cybersecurity Enthusiast</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Quicksand:wght@300..700&display=swap" rel="stylesheet" />
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/variables.css" />
+  <link rel="stylesheet" href="css/base.css" />
+  <link rel="stylesheet" href="css/nav.css" />
+  <link rel="stylesheet" href="css/hero.css" />
+  <link rel="stylesheet" href="css/portfolio.css" />
+  <link rel="stylesheet" href="css/skills.css" />
+  <link rel="stylesheet" href="css/blog.css" />
+  <link rel="stylesheet" href="css/about.css" />
+  <link rel="stylesheet" href="css/contact.css" />
+  <link rel="stylesheet" href="css/footer.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+</head>
+<body>
+
+  <!-- Animated background blobs -->
+  <div class="blob-bg" aria-hidden="true">
+    <div class="blob b1"></div>
+    <div class="blob b2"></div>
+    <div class="blob b3"></div>
+    <div class="blob b4"></div>
+  </div>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <a href="#" class="nav-logo">Joel Roy</a>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links">
+      <li><a href="#portfolio">Work ✦</a></li>
+      <li><a href="#skills">Skills ✦</a></li>
+      <li><a href="#blog">Blog ✦</a></li>
+      <li><a href="#about">About ✦</a></li>
+      <li><a href="#contact">Say hi ✦</a></li>
+    </ul>
+  </nav>
+
+  <main class="wrap">
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <div class="hero-badge">
+        <span class="dot"></span> Graduating April / May 2026 · Open to roles
+      </div>
+      <h1 class="hero-title">
+        Hey, I'm<br>
+        <span class="wave">Joel Roy</span>
+      </h1>
+      <p class="hero-sub">
+        CS undergrad at UWindsor · cybersecurity, networking &amp; web dev —
+        building cool things and writing about them ✨
+      </p>
+      <div class="hero-btns">
+        <a href="#portfolio" class="btn-primary">View My Work →</a>
+        <a href="#blog" class="btn-ghost">Read My Blog</a>
+      </div>
+      <div class="hero-pills">
+        <span class="pill">🔐 Cybersecurity</span>
+        <span class="pill">🌐 Web Dev</span>
+        <span class="pill">🖥️ Home Lab</span>
+        <span class="pill">📷 Photography</span>
+        <span class="pill">📍 Windsor, ON</span>
+      </div>
+      <div class="stats-row">
+        <div class="stat-bubble">
+          <div class="stat-num">Top 500</div>
+          <div class="stat-label">picoCTF worldwide</div>
+        </div>
+        <div class="stat-bubble">
+          <div class="stat-num">4,500+</div>
+          <div class="stat-label">CTF points scored</div>
+        </div>
+        <div class="stat-bubble">
+          <div class="stat-num">99%+</div>
+          <div class="stat-label">data accuracy</div>
+        </div>
+        <div class="stat-bubble">
+          <div class="stat-num">2026</div>
+          <div class="stat-label">graduation year</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PORTFOLIO -->
+    <section id="portfolio">
+      <div class="section-inner">
+        <span class="section-label">~ my work ~</span>
+        <h2 class="section-title">Things I've Built</h2>
+        <p class="section-sub">projects, security challenges, and creative work ✦</p>
+
+        <div class="ctf-banner">
+          <div class="ctf-badge">🏆</div>
+          <div class="ctf-text">
+            <strong>picoCTF 2026</strong> — Competed as part of the University of Windsor team,
+            scoring <strong>4,500+ points</strong> and ranking in the
+            <strong>top 500 out of 9,000+ teams worldwide</strong>.
+            Focused on recon, vulnerability identification, and forensics.
+          </div>
+        </div>
+
+        <div class="cards-grid">
+          <article class="card web">
+            <span class="card-type">FULL-STACK</span>
+            <h3 class="card-title">Agile Java App</h3>
+            <p class="card-desc">Database-driven application built with Java (JDBC) and XAMPP/MySQL. Includes User/Admin role system, authentication, and automated data handling — built with Agile/Scrum methodology.</p>
+            <div class="card-tags">
+              <span class="card-tag">Java</span>
+              <span class="card-tag">MySQL</span>
+              <span class="card-tag">JDBC</span>
+              <span class="card-tag">Agile</span>
+              <span class="card-tag">Eclipse</span>
+            </div>
+            <a class="card-link" href="https://github.com/joelroy393/comp3220-project" target="_blank" rel="noopener">GitHub →</a>
+            <div class="card-arrow" aria-hidden="true">↗</div>
+          </article>
+
+          <article class="card security">
+            <span class="card-type">SECURITY</span>
+            <h3 class="card-title">CTF Challenges</h3>
+            <p class="card-desc">Ongoing competitive security challenges on picoCTF — recon, exploitation basics, forensics, and vulnerability analysis. Active member of UWindsor Cybersecurity Club.</p>
+            <div class="card-tags">
+              <span class="card-tag">CTF</span>
+              <span class="card-tag">Forensics</span>
+              <span class="card-tag">Recon</span>
+              <span class="card-tag">Ethical Hacking</span>
+            </div>
+            <a class="card-link" href="https://play.picoctf.org/teams/18323" target="_blank" rel="noopener">View Team →</a>
+            <div class="card-arrow" aria-hidden="true">↗</div>
+          </article>
+
+          <article class="card web">
+            <span class="card-type">HOME LAB</span>
+            <h3 class="card-title">Personal Network Lab</h3>
+            <p class="card-desc">Configured and maintained a full home network/server environment — routers, firewalls, NAS, personal web apps, Bash automation scripts, and IoT/PLC experimentation.</p>
+            <div class="card-tags">
+              <span class="card-tag">Linux</span>
+              <span class="card-tag">Bash</span>
+              <span class="card-tag">Networking</span>
+              <span class="card-tag">IoT</span>
+              <span class="card-tag">NAS</span>
+            </div>
+            <div class="card-arrow" aria-hidden="true">↗</div>
+          </article>
+
+          <article class="card photo">
+            <span class="card-type">CREATIVE</span>
+            <h3 class="card-title">Video Editing &amp; Media</h3>
+            <p class="card-desc">Gameplay footage, travel vlogs, and creative edits. Experimenting with visual storytelling and cinematic editing techniques across different projects.</p>
+            <div class="card-tags">
+              <span class="card-tag">Video Editing</span>
+              <span class="card-tag">Sim Racing</span>
+              <span class="card-tag">Travel</span>
+            </div>
+            <div class="card-arrow" aria-hidden="true">↗</div>
+          </article>
+
+          <article class="card security">
+            <span class="card-type">CYBERSECURITY</span>
+            <h3 class="card-title">Digital Forensics Workshop</h3>
+            <p class="card-desc">Hands-on labs at Sterling (Jan 2026–Present) covering Digital Forensics, Ethical Hacking, and Network Defense. Analyzing real-world case studies and forensic tools.</p>
+            <div class="card-tags">
+              <span class="card-tag">Forensics</span>
+              <span class="card-tag">Network Defense</span>
+              <span class="card-tag">Sterling</span>
+            </div>
+            <div class="card-arrow" aria-hidden="true">↗</div>
+          </article>
+
+          <article class="card web">
+            <span class="card-type">WEB</span>
+            <h3 class="card-title">This Website</h3>
+            <p class="card-desc">Personal blog and portfolio site. Built to replace the old joelroy393.com with something actually worth showing. Properly structured HTML, CSS, and JS.</p>
+            <div class="card-tags">
+              <span class="card-tag">HTML</span>
+              <span class="card-tag">CSS</span>
+              <span class="card-tag">JS</span>
+              <span class="card-tag">2025</span>
+            </div>
+            <div class="card-arrow" aria-hidden="true">↗</div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills">
+      <div class="section-inner">
+        <span class="section-label">~ what I work with ~</span>
+        <h2 class="section-title">Technical Skills</h2>
+        <p class="section-sub">the tools, languages, and systems I actually use ✦</p>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <div class="skill-card-icon">🔐</div>
+            <div class="skill-card-title">Security</div>
+            <div class="skill-card-items">
+              <span class="skill-pill">CTF / picoCTF</span>
+              <span class="skill-pill">Ethical Hacking</span>
+              <span class="skill-pill">Digital Forensics</span>
+              <span class="skill-pill">Network Defense</span>
+              <span class="skill-pill">Vulnerability Analysis</span>
+            </div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-card-icon">🌐</div>
+            <div class="skill-card-title">Networking</div>
+            <div class="skill-card-items">
+              <span class="skill-pill">Home Lab</span>
+              <span class="skill-pill">Routing / Switching</span>
+              <span class="skill-pill">Firewalls</span>
+              <span class="skill-pill">NAS</span>
+              <span class="skill-pill">Network Defense</span>
+            </div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-card-icon">⌨️</div>
+            <div class="skill-card-title">Languages</div>
+            <div class="skill-card-items">
+              <span class="skill-pill">Java</span>
+              <span class="skill-pill">Python</span>
+              <span class="skill-pill">Bash</span>
+              <span class="skill-pill">PowerShell</span>
+              <span class="skill-pill">SQL</span>
+              <span class="skill-pill">HTML / CSS</span>
+            </div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-card-icon">🖥️</div>
+            <div class="skill-card-title">Systems</div>
+            <div class="skill-card-items">
+              <span class="skill-pill">Linux</span>
+              <span class="skill-pill">Windows Admin</span>
+              <span class="skill-pill">VMware Pro</span>
+              <span class="skill-pill">Hyper-V</span>
+              <span class="skill-pill">Server Config</span>
+            </div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-card-icon">🗄️</div>
+            <div class="skill-card-title">Databases &amp; Web</div>
+            <div class="skill-card-items">
+              <span class="skill-pill">MySQL</span>
+              <span class="skill-pill">XAMPP</span>
+              <span class="skill-pill">JDBC</span>
+              <span class="skill-pill">SQL Design</span>
+              <span class="skill-pill">Web Dev</span>
+            </div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-card-icon">🔧</div>
+            <div class="skill-card-title">Tools</div>
+            <div class="skill-card-items">
+              <span class="skill-pill">Git</span>
+              <span class="skill-pill">VS Code</span>
+              <span class="skill-pill">Eclipse</span>
+              <span class="skill-pill">IoT / PLC</span>
+              <span class="skill-pill">Agile / Scrum</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BLOG -->
+    <section id="blog">
+      <div class="section-inner">
+        <span class="section-label">~ latest words ~</span>
+        <h2 class="section-title">From the Blog</h2>
+        <p class="section-sub">thoughts on cybersecurity, tech, and life 🌙</p>
+        <div class="blog-stack">
+          <article class="blog-card" data-post="pico-ctf">
+            <div class="blog-date-bubble">
+              <span class="blog-year">2026</span>
+              <span class="blog-month">Mar</span>
+              <span class="blog-day">20</span>
+            </div>
+            <div class="blog-content">
+              <span class="blog-cat-badge">Cybersecurity</span>
+              <h3 class="blog-title-text">What I Learned from picoCTF 2026</h3>
+              <p class="blog-excerpt">Ranking in the top 500 out of 9,000+ teams — breaking down the forensics.</p>
+            </div>
+            <span class="blog-read">Read →</span>
+          </article>
+
+          <article class="blog-card" data-post="pc-build">
+            <div class="blog-date-bubble">
+              <span class="blog-year">2026</span>
+              <span class="blog-month">Jan</span>
+              <span class="blog-day">23</span>
+            </div>
+            <div class="blog-content">
+              <span class="blog-cat-badge">Hardware</span>
+              <h3 class="blog-title-text">Project "Royster": Building the 5070 Ti Beast</h3>
+              <p class="blog-excerpt">r7 7800X3D + RTX 5070 Ti — a deep dive into my 2026 workstation build.</p>
+            </div>
+            <span class="blog-read">Read →</span>
+          </article>
+
+          <article class="blog-card" data-post="home-lab">
+            <div class="blog-date-bubble">
+              <span class="blog-year">2023</span>
+              <span class="blog-month">Aug</span>
+              <span class="blog-day">10</span>
+            </div>
+            <div class="blog-content">
+              <span class="blog-cat-badge">Home Lab</span>
+              <h3 class="blog-title-text">Networking with an old DDR3 Laptop</h3>
+              <p class="blog-excerpt">Turning legacy hardware into routers and NAS — my automation lab.</p>
+            </div>
+            <span class="blog-read">Read →</span>
+          </article>
+
+          <article class="blog-card" data-post="journey">
+            <div class="blog-date-bubble">
+              <span class="blog-year">2023</span>
+              <span class="blog-month">Jan</span>
+              <span class="blog-day">15</span>
+            </div>
+            <div class="blog-content">
+              <span class="blog-cat-badge">Personal</span>
+              <h3 class="blog-title-text">From Kuwait to Windsor — My CS Journey</h3>
+              <p class="blog-excerpt">How growing up in Kuwait shaped my approach to tech and security.</p>
+            </div>
+            <span class="blog-read">Read →</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about">
+      <div class="section-inner">
+        <span class="section-label">~ a little about me ~</span>
+        <h2 class="section-title">Hi, I'm Joel 👋</h2>
+        <div class="about-wrap">
+          <div class="about-img-area">
+            <!-- Replace the blob frame with an <img> tag once you have a photo:       -->
+            <!-- <img src="assets/images/joel.jpg" alt="Joel Roy" class="about-photo"> -->
+            <div class="about-blob-frame">your photo here ✦</div>
+            <div class="about-facts">
+              <div class="about-fact"><span>🎓</span> UWindsor — CS + Applied IT Minor</div>
+              <div class="about-fact"><span>📍</span> Windsor, ON (originally from Kuwait)</div>
+              <div class="about-fact"><span>📧</span> Joelroy393@gmail.com</div>
+              <div class="about-fact"><span>🎯</span> Graduating April / May 2026</div>
+            </div>
+          </div>
+          <div class="about-text">
+            <p class="about-body">I'm a Computer Science undergraduate at the University of Windsor, originally from Kuwait. I'm passionate about IT infrastructure, cybersecurity, and industrial automation — and I love the crossover between security and the physical world (IoT, PLCs, home labs).</p>
+            <p class="about-body">Outside of code I'm into sim racing, cooking, video gaming, traveling, and video editing. I listen to a lot of Synthwave, Hip-Hop, and Pop — Eminem, Kavinsky, Bruno Mars, Lil Baby. Big fan of Sci-Fi and Horror films too.</p>
+
+            <span class="section-label" style="margin-top: 1.5rem; display: inline-block;">~ hobbies ~</span>
+            <div class="hobbies-bubbles">
+              <span class="hobby-pill">🏎️ Sim Racing</span>
+              <span class="hobby-pill">🎮 Video Gaming</span>
+              <span class="hobby-pill">🍳 Cooking</span>
+              <span class="hobby-pill">✈️ Traveling</span>
+              <span class="hobby-pill">🎬 Video Editing</span>
+              <span class="hobby-pill">🎵 Music</span>
+            </div>
+
+            <span class="section-label" style="margin-top: 1.5rem; display: inline-block;">~ fav artists ~</span>
+            <div class="skills-bubbles">
+              <span class="skill-bubble">Eminem</span>
+              <span class="skill-bubble">Kavinsky</span>
+              <span class="skill-bubble">Bruno Mars</span>
+              <span class="skill-bubble">Lil Baby</span>
+              <span class="skill-bubble">FOOL Music</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <div class="contact-wrap">
+        <span class="section-label">~ let's connect ~</span>
+        <h2 class="section-title">Say Hello ✨</h2>
+        <p class="section-sub">open to full-time roles, collabs, or just a chat — graduating 2026 ✦</p>
+        <form class="contact-form" id="contactForm" novalidate>
+          <div class="field-group">
+            <input class="c-input" type="text" name="name" placeholder="Your name ✦" required />
+            <input class="c-input" type="email" name="email" placeholder="Your email ✦" required />
+          </div>
+          <input class="c-input" type="text" name="subject" placeholder="Subject ✦" />
+          <textarea class="c-input" name="message" placeholder="Your message... ✦" required></textarea>
+          <button type="submit" class="submit-btn">Send it over ✨</button>
+        </form>
+        <div class="socials">
+          <a class="social-pill" href="mailto:Joelroy393@gmail.com">📧 Email</a>
+          <a class="social-pill" href="https://github.com/joelroy393" target="_blank" rel="noopener">🐙 GitHub</a>
+          <a class="social-pill" href="https://www.linkedin.com/in/joelroy393/" target="_blank" rel="noopener">💼 LinkedIn</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="terminal-footer">
+      <span class="user">joel@royster393</span>:<span class="dir">~</span>$ ./check_status --location "Windsor, ON"
+      <br>
+      <span class="status">[STATUS: SECURE]</span> — Connection Established 
+    </div>
+  </footer>
+
+  <div id="blogModal" class="modal-overlay" aria-hidden="true">
+    <div class="modal-content">
+      <button class="modal-close" aria-label="Close">×</button>
+      <div id="modalBody" class="modal-body-content">
+        </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="js/blobs.js"></script>
+  <script src="js/nav.js"></script>
+  <script src="js/animations.js"></script>
+  <script src="js/contact.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+</html>
