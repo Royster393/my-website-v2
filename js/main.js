@@ -124,29 +124,30 @@ document.addEventListener('DOMContentLoaded', () => {
       `
     },
     'journey': {
-      title: 'Kuwait to Windsor: The Solo System Shock',
+      title: 'The Solo System Shock: From Kuwait to Windsor',
       html: `
-        <p>For 18 years, Kuwait was my entire world. Stepping onto a plane to Canada alone wasn't just a move; it was a forced evolution. I went from a familiar life to being completely responsible for my own finances, my own work, and a totally different academic curriculum—all while trying to build a new circle from scratch.</p>
+        <p>For 18 years, Kuwait was my entire world. But more importantly, it was where my obsession with technology began. Growing up there, tech wasn't just a hobby; it was my primary language. Whether it was the intense summer heat keeping me indoors or the fast-paced digital culture, I spent my youth taking things apart and figuring out how they worked.</p>
         
-        <h3>The Great Disconnect:</h3>
-        <p>The first few months were a lot to take in. I had to learn how to manage life in real-time. There’s no manual for moving across the world by yourself. I had to adapt to a new way of learning at UWindsor, figure out how to balance a budget, and find my footing in a culture that was the polar opposite of what I knew.</p>
+        <h3>The "Spec Advisor" & The Windows Grind:</h3>
+        <p>Before I ever wrote a line of formal code, I was the "Spec Advisor" for everyone I knew. If someone needed a phone or a PC, they came to me—I lived for researching benchmarks and price-to-performance ratios. But my real introduction to the "hacker" mindset came from <strong>Console Emulation</strong>. I wanted to play titles my PC wasn't "supposed" to run, which meant I spent countless hours in <strong>PowerShell</strong>, setting up <strong>symbolic links</strong> to manage my storage and writing <strong>batch scripts</strong> to automate my launch configurations. That frustration was my first real classroom.</p>
 
-        <h3>The Freedom of the "Outsider":</h3>
-        <p>But in that struggle, I found something I didn't expect: <strong>total freedom</strong>. Being in a place where nobody knew me allowed me to step completely out of my comfort zone. I started saying "yes" to things I never would have back home—joining the <strong>UWindsor Cybersecurity Club</strong>, diving into <strong>picoCTF</strong>, and building a community of friends who shared my obsession with tech.</p>
+        <h3>The 10,000km Reboot:</h3>
+        <p>Stepping onto a plane to Canada alone at 18 was a forced evolution. I went from the comfort of my home to being completely responsible for my own life. I had to learn how to manage <strong>finances</strong>, navigate a totally different <strong>academic curriculum</strong>, and balance <strong>work</strong>—all while building a new circle of friends from scratch.</p>
 
         <div class="modal-media">
           <div class="terminal-box" style="background: #1a1b26; color: #a9b1d6; padding: 1rem; border-radius: 12px; font-family: 'Courier New', monospace; border: 1px solid #414868;">
-            <div style="color: #565f89;"># Initializing Life.sh...</div>
-            <div style="color: #73daca;">[OK] Location: Windsor, ON</div>
-            <div style="color: #e0af68;">[WARN] Comfort Zone: Exited.</div>
-            <div style="color: #bb9af7;">[INFO] Status: Building something better.</div>
+            <div style="color: #565f89;">PS C:\Users\royster393> # Fixing Emulator Pathing</div>
+            <div style="color: #73daca;">PS C:\Users\royster393> mklink /J ".\ROMs" "D:\External\Games"</div>
+            <div style="color: #bb9af7;">Junction created for .\ROMs <<===>> D:\External\Games</div>
+            <div style="color: #e0af68;">[WARN] System: Moving to Windsor...</div>
+            <div style="color: #73daca;">[SUCCESS] Status: Ready for new horizons.</div>
           </div>
         </div>
 
-        <h3>The Takeaway:</h3>
-        <p>This journey defined my "hacker" mindset. When you're the new guy in a new country, you're always the one looking in from the outside. That perspective is my biggest strength—it’s how I find the gaps in systems, the vulnerabilities in code, and the drive to keep pushing my limits.</p>
+        <h3>The Freedom of the "Outsider":</h3>
+        <p>The first few months were a massive shock, but in that struggle, I found something I didn't expect: <strong>total freedom</strong>. Being in a place where nobody knew me allowed me to step completely out of my comfort zone. I started saying "yes" to the challenges I used to overthink—joining the <strong>UWindsor Cybersecurity Club</strong>, grinding through <strong>picoCTF</strong>, and turning that childhood curiosity into a professional pursuit.</p>
         
-        <p><strong>The Result:</strong> I didn't just move to a new city; I broke my own boundaries. The independence I found in Windsor is what fuels the "Royster" brand—finding the exploit in my own comfort zone to grow as a developer.</p>
+        <p><strong>The Result:</strong> Kuwait gave me the spark and the "Spec Advisor" eye for detail, but Windsor gave me the space to turn that spark into a career. The independence I found here is what fuels every project I build today.</p>
       `
     },
   };
