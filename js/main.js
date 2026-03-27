@@ -124,16 +124,31 @@ document.addEventListener('DOMContentLoaded', () => {
       `
     },
     'journey': {
-      title: 'Kuwait to Windsor: The Transition',
+      title: 'Kuwait to Windsor: The Solo System Shock',
       html: `
-        <p>Moving from Kuwait to Canada for CS was a calculated risk. It forced me to adapt to a new tech landscape and academic culture at UWindsor.</p>
+        <p>For 18 years, Kuwait was my entire world. Stepping onto a plane to Canada alone wasn't just a move; it was a forced evolution. I went from a familiar life to being completely responsible for my own finances, my own work, and a totally different academic curriculum—all while trying to build a new circle from scratch.</p>
         
-        <h3>The Cultural Shift:</h3>
-        <p>Back in Kuwait, my tech circle was small. Coming to Windsor opened up a massive community of like-minded hackers and devs. It taught me that technical skill is only half the battle; the ability to collaborate on Agile teams and compete in international CTFs is what really moves the needle.</p>
+        <h3>The Great Disconnect:</h3>
+        <p>The first few months were a lot to take in. I had to learn how to manage life in real-time. There’s no manual for moving across the world by yourself. I had to adapt to a new way of learning at UWindsor, figure out how to balance a budget, and find my footing in a culture that was the polar opposite of what I knew.</p>
+
+        <h3>The Freedom of the "Outsider":</h3>
+        <p>But in that struggle, I found something I didn't expect: <strong>total freedom</strong>. Being in a place where nobody knew me allowed me to step completely out of my comfort zone. I started saying "yes" to things I never would have back home—joining the <strong>UWindsor Cybersecurity Club</strong>, diving into <strong>picoCTF</strong>, and building a community of friends who shared my obsession with tech.</p>
+
+        <div class="modal-media">
+          <div class="terminal-box" style="background: #1a1b26; color: #a9b1d6; padding: 1rem; border-radius: 12px; font-family: 'Courier New', monospace; border: 1px solid #414868;">
+            <div style="color: #565f89;"># Initializing Life.sh...</div>
+            <div style="color: #73daca;">[OK] Location: Windsor, ON</div>
+            <div style="color: #e0af68;">[WARN] Comfort Zone: Exited.</div>
+            <div style="color: #bb9af7;">[INFO] Status: Building something better.</div>
+          </div>
+        </div>
+
+        <h3>The Takeaway:</h3>
+        <p>This journey defined my "hacker" mindset. When you're the new guy in a new country, you're always the one looking in from the outside. That perspective is my biggest strength—it’s how I find the gaps in systems, the vulnerabilities in code, and the drive to keep pushing my limits.</p>
         
-        <p><strong>The Impact:</strong> This journey defined my "hacker" mindset—always being the outsider looking in, finding the gaps, and building something better.</p>
+        <p><strong>The Result:</strong> I didn't just move to a new city; I broke my own boundaries. The independence I found in Windsor is what fuels the "Royster" brand—finding the exploit in my own comfort zone to grow as a developer.</p>
       `
-    }
+    },
   };
 
   // 2. Modal Logic
