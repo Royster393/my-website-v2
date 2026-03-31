@@ -18,6 +18,7 @@
   <link rel="stylesheet" href="css/nav.css" />
   <link rel="stylesheet" href="css/hero.css" />
   <link rel="stylesheet" href="css/portfolio.css" />
+  <link rel="stylesheet" href="css/data.css" />
   <link rel="stylesheet" href="css/skills.css" />
   <link rel="stylesheet" href="css/blog.css" />
   <link rel="stylesheet" href="css/about.css" />
@@ -43,6 +44,7 @@
     </button>
     <ul class="nav-links">
       <li><a href="#portfolio">Work ✦</a></li>
+      <li><a href="#data">Data ✦</a></li>
       <li><a href="#skills">Skills ✦</a></li>
       <li><a href="#blog">Blog ✦</a></li>
       <li><a href="#about">About ✦</a></li>
@@ -76,16 +78,24 @@
         <span class="pill">📷 Photography</span>
         <span class="pill">📍 Windsor, ON</span>
       </div>
-      <div class="stats-row">
-       <!--  <div class="stat-bubble">
+      <!-- <div class="stats-row">
+        <div class="stat-bubble">
+          <div class="stat-num">Top 500</div>
+          <div class="stat-label">picoCTF worldwide</div>
+        </div>
+        <div class="stat-bubble">
+          <div class="stat-num">4,500+</div>
+          <div class="stat-label">CTF points scored</div>
+        </div>
+        <div class="stat-bubble">
           <div class="stat-num">99%+</div>
           <div class="stat-label">data accuracy</div>
         </div>
         <div class="stat-bubble">
           <div class="stat-num">2026</div>
           <div class="stat-label">graduation year</div>
-        </div>
-      </div>-->
+        </div>-->
+      </div>
     </section>
 
     <!-- PORTFOLIO -->
@@ -190,6 +200,69 @@
       </div>
     </section>
 
+    <!-- DATA & ANALYTICS -->
+    <section id="data">
+      <div class="section-inner">
+        <span class="section-label">~ data portfolio ~</span>
+        <h2 class="section-title">Data Engineering & Analytics Projects</h2>
+        <p class="section-sub">building real pipelines — Python ETL, SQL Server, Power BI, from raw data to business insights ✦</p>
+
+        <div class="data-series-badge">
+          <span class="dot" style="background: #38bdf8;"></span>
+          Iteration 3 in progress · SQL Server + Python ETL + Power BI
+        </div>
+
+        <div class="cards-grid">
+          <article class="card data">
+            <span class="card-type">POWER BI · ITERATION 1</span>
+            <h3 class="card-title">Personal Finance Dashboard</h3>
+            <p class="card-desc">First project in the data portfolio. Raw transaction data transformed through Power Query, modelled with a Star Schema, and surfaced as an interactive KPI dashboard with live cross-filtering, spend breakdowns, and time-series trends.</p>
+            <div class="card-tags">
+              <span class="card-tag">Power BI</span>
+              <span class="card-tag">DAX</span>
+              <span class="card-tag">Power Query</span>
+              <span class="card-tag">Star Schema</span>
+              <span class="card-tag">Excel</span>
+            </div>
+            <a class="card-link data-link" href="https://github.com/joelroy393/Personal-Finance-PowerBI" target="_blank" rel="noopener">GitHub →</a>
+            <div class="card-arrow" aria-hidden="true">↗</div>
+          </article>
+
+          <article class="card data">
+            <span class="card-type">PYTHON + POWER BI · ITERATION 2</span>
+            <h3 class="card-title">Financial Health Analysis</h3>
+            <p class="card-desc">Used Python (pandas, numpy) to engineer 2,500+ synthetic transactions. Built a "Red Alert" budget variance system with DAX conditional formatting and resolved geographic mapping drift across Windsor, Toronto, and Detroit.</p>
+            <div class="card-tags">
+              <span class="card-tag">Python</span>
+              <span class="card-tag">pandas</span>
+              <span class="card-tag">numpy</span>
+              <span class="card-tag">Power BI</span>
+              <span class="card-tag">DAX</span>
+              <span class="card-tag">Star Schema</span>
+            </div>
+            <a class="card-link data-link" href="https://github.com/joelroy393/Financial-health-analysis" target="_blank" rel="noopener">GitHub →</a>
+            <div class="card-arrow" aria-hidden="true">↗</div>
+          </article>
+
+          <article class="card data">
+            <span class="card-type">SQL SERVER + ETL · ITERATION 3</span>
+            <h3 class="card-title">End-to-End Data Pipeline</h3>
+            <p class="card-desc">Full data engineering pipeline — Python ETL injects data into SQL Server via SQLAlchemy and pyodbc, Power BI connects live through ODBC for real-time refresh. Features MoM trend analysis, burn rate tracking, and anomaly detection.</p>
+            <div class="card-tags">
+              <span class="card-tag">SQL Server</span>
+              <span class="card-tag">Python ETL</span>
+              <span class="card-tag">SQLAlchemy</span>
+              <span class="card-tag">pyodbc</span>
+              <span class="card-tag">Power BI</span>
+              <span class="card-tag">DAX</span>
+            </div>
+            <a class="card-link data-link" href="https://github.com/joelroy393/End-to-End-Financial-Intelligence-Pipeline" target="_blank" rel="noopener">GitHub →</a>
+            <div class="card-arrow" aria-hidden="true">↗</div>
+          </article>
+        </div>
+      </div>
+    </section>
+
     <!-- SKILLS -->
     <section id="skills">
       <div class="section-inner">
@@ -247,11 +320,23 @@
             <div class="skill-card-title">Databases &amp; Web</div>
             <div class="skill-card-items">
               <span class="skill-pill">MySQL</span>
+              <span class="skill-pill">SQL Server</span>
               <span class="skill-pill">XAMPP</span>
               <span class="skill-pill">JDBC</span>
               <span class="skill-pill">SQL Design</span>
               <span class="skill-pill">Web Dev</span>
-              <span class="skill-pill">Power BI</span>
+            </div>
+          </div>
+          <div class="skill-card skill-card--data">
+            <div class="skill-card-icon">📊</div>
+            <div class="skill-card-title">Data & Analytics</div>
+            <div class="skill-card-items">
+              <span class="skill-pill skill-pill--data">Power BI</span>
+              <span class="skill-pill skill-pill--data">DAX</span>
+              <span class="skill-pill skill-pill--data">Power Query</span>
+              <span class="skill-pill skill-pill--data">Star Schema</span>
+              <span class="skill-pill skill-pill--data">pandas</span>
+              <span class="skill-pill skill-pill--data">SQLAlchemy</span>
             </div>
           </div>
           <div class="skill-card">
