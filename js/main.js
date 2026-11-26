@@ -8,8 +8,55 @@ document.addEventListener('DOMContentLoaded', () => {
   // 1. Full Blog Content Data
   // 1. Full Blog Content Data
   const blogData = {
-    'pico-ctf': {
-      title: 'picoCTF 2026: Tactical Analysis',
+    'nobara': {
+      title: 'Nobara OS: My Favorite Distro Right Now',
+      html: `
+        <p>Nobara is my favorite Linux distro right now, and it's what I run on my <strong>Lenovo Legion Pro 5i</strong> gaming laptop. I've cycled through a lot of distros on the way here, so this one earned its spot.</p>
+
+        <h3>What Nobara Is:</h3>
+        <p>Nobara is a <strong>Fedora-based</strong> distro built by Thomas Crider, better known as <strong>GloriousEggroll</strong>, the developer behind <strong>Proton-GE</strong>. The idea is simple: take Fedora and fix the things gamers and creators usually have to sort out by hand, so it works properly out of the box.</p>
+
+        <h3>What Makes It Stand Out:</h3>
+        <ul>
+          <li><strong>Ready out of the box:</strong> drivers, multimedia codecs, and gaming tools come set up instead of costing you an afternoon of post-install fixes.</li>
+          <li><strong>NVIDIA-friendly:</strong> NVIDIA driver support is part of the install, which matters on an RTX laptop like mine.</li>
+          <li><strong>Fedora underneath:</strong> modern, fast-moving packages and the familiar <strong>dnf</strong> workflow.</li>
+          <li><strong>Rolling release:</strong> since Nobara 42 it ships updates continuously instead of big version-jump upgrades.</li>
+          <li><strong>Proton-GE heritage:</strong> the same developer maintains the compatibility layer many Linux gamers rely on to run Windows games through Steam.</li>
+        </ul>
+
+        <h3>The Machine:</h3>
+        <p>Nobara runs on a <strong>Lenovo Legion Pro 5i Gen 8</strong>, plenty of hardware for a gaming-focused distro.</p>
+        <ul class="specs-grid">
+          <li><strong>Laptop:</strong> Lenovo Legion Pro 5i Gen 8</li>
+          <li><strong>CPU:</strong> Intel Core i7-13700HX</li>
+          <li><strong>GPU:</strong> NVIDIA GeForce RTX 4070 Laptop GPU</li>
+          <li><strong>RAM:</strong> 32GB DDR5 4800MT/s</li>
+          <li><strong>OS:</strong> Nobara OS (Fedora-based, rolling)</li>
+        </ul>
+
+        <h3>My Linux Path:</h3>
+        <p>Nobara is the latest stop on a longer Linux journey. It started with <strong>ChromeOS Flex</strong> and <strong>Ubuntu</strong> on an old DDR3 laptop, which turned into a headless <strong>Ubuntu Server</strong> box I managed over SSH. Since then Linux has become a core part of my lab and security work, from Kali VMs and Proxmox to Wazuh. Nobara is where I get to enjoy it on the gaming side too.</p>
+
+        <p><strong>Bottom line:</strong> Fedora-based, gaming-ready, and a great fit for my Legion Pro 5i.</p>
+      `
+    },
+    'graduation': {
+      title: 'Officially Graduated: Class of 2026',
+      html: `
+        <p>These past four years have been a real roller coaster full of grind, late nights, tough challenges, and moments that tested everything I had. I’m proud to share that I’ve officially graduated with a <strong>Bachelor of Computer Science</strong> and a <strong>minor in Applied IT</strong> from the <strong>University of Windsor</strong>.</p>
+
+        <p>This chapter has meant a lot to me. I’ll really miss the student life, the group projects, the craziest late night lock-ins with the <strong>University of Windsor Cybersecurity Club</strong>, and everything I learned along the way. I’m so grateful to my professors, classmates, and especially my family for all their support.</p>
+
+        <p>Excited for the next chapter and the bright future ahead.</p>
+
+        <p style="color: var(--color-accent); font-size: 14px;">#ClassOf2026 #ComputerScience #UniversityOfWindsor #NewGrad #UWinGrad #Graduation</p>
+
+        <p style="color: var(--color-muted); font-size: 13px; font-style: italic;">Originally posted on LinkedIn · June 6, 2026</p>
+      `
+    },
+    'ctf': {
+      title: 'CTF Competitions: Tactical Analysis',
       html: `
         <p>Ranking in the <strong>top 500 out of 9,000+ teams</strong> was a massive win for my 2026 season. It moved me from just "using tools" to actually understanding the underlying vulnerabilities through relentless trial and error.</p>
         
@@ -145,7 +192,7 @@ document.addEventListener('DOMContentLoaded', () => {
         </div>
 
         <h3>The Freedom of the "Outsider":</h3>
-        <p>The first few months were a massive shock, but in that struggle, I found something I didn't expect: <strong>total freedom</strong>. Being in a place where nobody knew me allowed me to step completely out of my comfort zone. I started saying "yes" to the challenges I used to overthink—joining the <strong>UWindsor Cybersecurity Club</strong>, grinding through <strong>picoCTF</strong>, and turning that childhood curiosity into a professional pursuit.</p>
+        <p>The first few months were a massive shock, but in that struggle, I found something I didn't expect: <strong>total freedom</strong>. Being in a place where nobody knew me allowed me to step completely out of my comfort zone. I started saying "yes" to the challenges I used to overthink—joining the <strong>UWindsor Cybersecurity Club</strong>, grinding through <strong>CTF competitions</strong>, and turning that childhood curiosity into a professional pursuit.</p>
         
         <p><strong>The Result:</strong> Kuwait gave me the spark and the "Spec Advisor" eye for detail, but Windsor gave me the space to turn that spark into a career. The independence I found here is what fuels every project I build today.</p>
       `
